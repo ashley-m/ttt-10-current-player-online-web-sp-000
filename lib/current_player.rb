@@ -5,7 +5,7 @@ def turn_count(board)
       count += 1
     end
   end
-  if count = 0 return 1
+  if (count == 0) return 1
   else return count
 end
 
