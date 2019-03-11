@@ -1,11 +1,12 @@
 def turn_count(board)
-  count=1
+  count=0
   board.each do |space|
     if space != " "
       count += 1
     end
   end
-  return count
+  if count = 0 return 1
+  else return count
 end
 
 def current_player(board)
